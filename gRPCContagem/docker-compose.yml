@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  grpccontagem:
+    image: grpccontagem-3-0
+    build:
+      context: .
+    ports:
+      - "25001:80"
